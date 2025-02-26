@@ -1,0 +1,25 @@
+tcp : Transmission Control Protocol
+udp : User Datagram Protocol
+ssh: secure shell 
+  
+
+
+
+
+TCP
+UDP
+Connection type
+Connection-based
+Connectionless
+Reliability
+More reliable
+Less reliable
+Speed
+Slower
+Faster
+Error checking
+Ensures data is delivered in order
+Doesn't check for errors
+Use cases
+Emails, web pages, data files
+Real-time communications, gaming, video streaming

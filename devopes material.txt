@@ -1,0 +1,746 @@
+ what is aws used for ?                                                                                                               
+AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications     
+                
+waht is the main role of aws ?
+ satisfy the security requirements for the military, global banks, and other high-sensitivity organizations.
+
+3)which language is used for aws?
+Java and Python are the two most commonly used programming languages in Amazon Web Services (AWS).
+
+4) Define and explain the three basic types of cloud services and the AWS products that are built based on them?
+The three basic types of cloud services are:
+
+Computing
+Storage
+Networking
+Here are some of the AWS products that are built based on the three cloud service types:
+
+Computing - These include EC2, Elastic Beanstalk, Lambda, Auto-Scaling, and Lightsat.
+
+Storage - These include S3, Glacier, Elastic Block Storage, Elastic File System.
+
+Networking - These include VPC, Amazon CloudFront, Route53
+
+5)What is the relation between the Availability Zone and Region?
+AWS regions are separate geographical areas, like the US-West 1 (North California) and Asia South (Mumbai). On the other hand, availability zones are the areas that are present inside the regions. These are generally isolated zones that can replicate themselves whenever required.
+
+6) What is auto-scaling?
+Auto-scaling is a function that allows you to provision and launch new instances whenever there is a demand. It allows you to automatically increase or decrease resource capacity in relation to the demand.
+
+7)Is there any other alternative tool to log into the cloud environment other than console?
+These can help you log into the AWS resources:
+
+Putty
+AWS CLI for Linux
+AWS CLI for Windows
+AWS CLI for Windows CMD
+AWS SDK
+Eclipse
+
+8)Name some of the AWS services that are not region-specific ?
+AWS services that are not region-specific are:
+
+IAM
+Route 53
+Web Application Firewall 
+CloudFront
+
+9)What is CloudWatch?
+The Amazon CloudWatch has the following features:
+
+Depending on multiple metrics, it participates in triggering alarms.
+Helps in monitoring the AWS environments like CPU utilization, EC2, Amazon RDS instances, Amazon SQS, S3, Load Balancer, SNS, etc.
+
+10)How many S3 buckets can be created?
+Up to 100 buckets can be created by default.
+
+11)What is the maximum limit of elastic IPs anyone can produce?
+A maximum of five elastic IP addresses can be generated per location and AWS account.
+
+12)What are Key-Pairs in AWS?
+The Key-Pairs are password-protected login credentials for the Virtual Machines that are used to prove our identity while connecting the Amazon EC2 instances. The Key-Pairs are made up of a Private Key and a Public Key which lets us connect to the instances.
+
+13) What is Amazon S3? (interview question)
+S3 is short for Simple Storage Service, and Amazon S3 is the most supported storage platform available. S3 is object storage that can store and retrieve any amount of data from anywhere. Despite that versatility, it is practically unlimited as well as cost-effective because it is storage available on demand. In addition to these benefits, it offers unprecedented levels of durability and availability. Amazon S3 helps to manage data for cost optimization, access control, and compliance. 
+
+14)What Is Amazon Virtual Private Cloud (VPC) and Why Is It Used?
+A VPC is the best way of connecting to your cloud resources from your own data center. Once you connect your datacenter to the VPC in which your instances are present, each instance is assigned a private IP address that can be accessed from your data center. That way, you can access your public cloud resources as if they were on your own private network.
+
+15)How many Subnets can you have per VPC?
+We can have up to 200 Subnets per Amazon Virtual Private Cloud (VPC).
+
+16)What are the different types of load balancers in AWS?
+Three types of load balancers are supported by Elastic Load Balancing:
+
+Application Load Balancer
+Network Load Balancer
+Classic Load Balancer
+
+17)What Is Amazon Route 53?
+Amazon Route 53 is a scalable and highly available Domain Name System (DNS). The name refers to TCP or UDP port 53, where DNS server requests are addressed.
+
+18) Suppose you are a game designer and want to develop a game with single-digit millisecond latency, which of the following database services would you use?
+Amazon Dynamo db
+
+19) Define Amazon EC2 regions and availability zones?
+Availability zones are geographically separate locations. As a result, failure in one zone has no effect on EC2 instances in other zones. When it comes to regions, they may have one or more availability zones. This configuration also helps to reduce latency and costs.
+
+20)what is the load balancer ?
+An AWS load balancer is a component of Elastic Load Balancing (ELB) that distributes incoming traffic across multiple targets in the AWS cloud. Load balancers improve application performance by increasing response time and reducing network latency. 
+
+21)what is the free types of load balancer ? (interview question)
+1)classic load balancer
+2)apllication load balancer 
+3) network load balancer
+
+21)what is classic load balancer ?
+ A "Classic Load Balancer" in AWS is a legacy type of load balancer that distributes incoming application traffic across multiple EC2 instances in different Availability Zones
+
+22)what is apllication load balancer?
+ An Application Load Balancer (ALB) in Amazon Web Services (AWS) is a service that distributes incoming traffic to multiple targets. ALBs are layer 7 load balancers that operate at the application layer of the Open Systems Interconnection (OSI) model. 
+
+23)what is network load balancer ?
+A Network Load Balancer (NLB) in Amazon Web Services (AWS) distributes traffic to targets within a virtual private cloud (VPC). It can handle millions of requests per second while maintaining low latency.
+
+24) RFC1918 Address(Private address?
+  10.0.0.0 -10.255.255.255 (10/8 prefix)
+   172.16.0.0 - 172.31.255.255 (172.16/12 prefix)
+  192.168.0.0 - 192.168.255.255 (192.168/16 prefix) 
+25) What Is Amazon Route 53?
+ Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed for developers and corporations to route the end users to Internet applications by translating human-readable names like www.geeksforgeeks.org into the numeric IP addresses like 192.0.1.1 that computers use to connect.  You cannot use Amazon Route 53 to connect your on-premises network with AWS Cloud.
+26) Benefits And Features Of Route53 ?
+  Highly Reliable: Route53 is built using AWS’s highly available and reliable infrastructure. The distributed nature of the AWS DNS servers helps ensure a consistent ability to route the end-users to the web application.
+27)Why It Is Called Route53?
+   The Name Route53 refers to its port number. The DNS protocol’s port 53 is used in this service that is used as referencing name displaying an essential characteristics of the service of traffic routing and domain name management
+   28)what is network protocales ?
+   Networking Protocols
+HTTP
+HTTPS
+TCP/IP
+FTP / SFTP
+DNS
+SMTP
+SSL / TLS
+SSHPort Forwarding.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+linux commendes 
+---------------------
+1) To display present working directory ?
+ pwd
+This command will display the current directory you are in. 
+2. To list the directories and files in the current directory ?
+ ls
+This command will display the list of files and directories in the current directory. 
+3. To change the current working directory  
+cd
+4. To find a word in a file. 
+grep keyword filename
+5. To create a new directory
+mkdir directory_name
+6. To remove a directory
+rmdir directory_name 
+7. To move a file  
+mv source destination
+ 8. To copy a file?
+cp source destination
+9. To create a new file  ?
+  touch filename
+10. To display manual of a command  ?
+man ls  
+11. To check the internet connection or to check whether the host is active or not.  ?
+ ping google.com
+12. To display network interface details. ?
+ ifconfig 
+13. To download a file?
+wget link_to_file
+14. To install a package   ?
+sudo apt install package_name
+15. To remove a package   ?
+16. To upgrade packages in the system?
+sudo apt upgrade
+17)  cal command in Linux ?
+  The cal command is not the most famous command in the terminal but it functions to view the calendar for a particular month in the terminal. Let’s see how this works.
+18) whereis command in Linux ?
+   whereis command in Linux is generally used to see the exact location of any command typed after this. Let’s see how this performs 
+19)  df command in Linux ? 
+    df command in Linux gets the details of the file system. 
+20)  wc command in Linux  ?
+      wc command in Linux indicates the number of words, characters, lines, etc using a set of options. 
+
+wc -w shows the number of words
+wc -l shows the number of lines
+wc -m shows the number of characters present in a file
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ basic commendes in fresheres in aws 
+----------------------------------------------
+---------------------------------------------
+1)  Is
+
+
+Displays information about files in the current directory.
+
+ 2)pwd
+
+
+Displays the current working directory.
+
+3)mkdir
+
+
+Creates a directory
+
+4)cd
+
+
+To navigate between different folders.
+
+5)rmdir
+
+
+Removes empty directories from the directory lists.
+
+6)cp
+
+
+Moves files from one directory to another.
+
+7)mv
+
+
+Rename and Replace the files
+
+8)rm
+
+
+Delete files 
+
+9)uname
+
+
+Command to get basic information about the OS
+
+10)locate
+
+
+Find a file in the database.
+
+
+
+
+
+
+
+
+
+
+   
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+aws imporatant taskes
+ 1)ec2
+2)vpc
+3)s3 (simple service storage )
+4)RDS (RELATIONAL DATABASE SERVICE)
+5) ROUTE53 (DNS)
+6) ELB (ELASTIC LOAD BALANCER)
+7)AUTO SCALLING
+8)IAM(IDENTFEY ACCCES MANGEMENT)
+9)AMI (AMAZON MECHINE IMAGE)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Benefits of AWS security
+• Keep Your data safe — The AWS infrastructure puts strong safeguards in place to help protect
+your privacy. All data is stored in highly secure AWS data centers.
+• Meet compliance requirements — AWS manages dozens of compliance programs in its
+infrastructure. This means that segments of your compliance have already been completed.
+• Save money — Cut costs by using AWS data centers. Maintain the highest standard of security
+without having to manage your own facility
+• Scale quickly — Security scales with your AWS Cloud usage. No matter the size of your business,
+the AWS infrastructure is designed to keep your data safe
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ important task ---1  (ec2)
+  ---------------------
+ec2: Amazon Elastic Compute Cloud (EC2) is a web service that allows users to create and run virtual machines (instances) in the cloud. EC2 is a service offered by Amazon Web Services (AWS). 
+1)What does EC2 do?
+ EC2 provides a secure, resizable compute capacity in the cloud 
+EC2 helps developers build and run web-scale applications 
+EC2 allows users to build apps that can scale automatically to meet changing needs 
+EC2 makes it easier to deploy virtual servers and manage storage   
+2)How does EC2 work?
+ Users create an Amazon Machine Image (AMI) that includes the operating system, apps, and configurations 
+Users can choose from a variety of processors, storage, networking, operating systems, and purchase models 
+Users can set up security, protocols, port ranges, and sources of incoming traffic 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ imporatant task ---2 ( vpc)
+ vpc: Amazon Virtual Private Cloud (VPC) is a virtual network that allows users to launch AWS resources in a logically isolated section of the Amazon Web Services (AWS) cloud. It gives users full control over their virtual networking environment, including security, connectivity, and resource placement. 
+ Features
+------------
+IP address ranges: Users can specify an IP address range for their VPC. 
+Subnets: Users can create subnets, which are ranges of IP addresses in their VPC. 
+Gateways: Users can add gateways to their VPC. 
+Security groups: Users can associate security groups with their VPC. 
+Route tables: Users can configure route tables to route traffic to and from their subnets. 
+Network access control lists (NACLs): Users can use NACLs to control access to Amazon EC2 instances in each subnet. 
+Encryption: Users can use encryption to protect their data. 
+Identity and access management (IAM): Users can use IAM to manage user access. 
+Benefits: 
+ ----------------
+Users can deploy resources close to their end-users for better performance and low latency. 
+Users can leverage the AWS cloud as an extension of their corporate datacenter. 
+Users can customize the network configuration for their VPC. 
+Users can create a VPC in the AWS service console. 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+imporant task -3
+--------------------
+simple storage service
+----------------------------
+Amazon Simple Storage Service (S3) is a cloud-based object storage service that allows users to store and retrieve data from anywhere. S3 is part of Amazon Web Services (AWS). 
+Features
+------------
+Scalability: S3 is highly scalable and users only pay for what they use. 
+Data availability: S3 offers a high level of data availability and durability. 
+Security: S3 offers security features such as Block Public Access to restrict access to buckets. 
+Performance: S3 offers low latency and high throughput performance. 
+Cost-effective: S3 offers cost-effective storage classes. 
+Management features: S3 offers easy-to-use management features. 
+use cases 
+-----------
+Data lakes
+Cloud-native applications
+Mobile apps
+Dynamic websites
+Content distribution
+Gaming applications
+Big data analytics               
+How it works: 
+-----------------
+Data is stored in buckets, each of which can store an unlimited amount of unstructured data.
+Objects are identified by a unique key and can be organized using metadata.
+Permissions can be assigned at the bucket or object level.
+The S3 API can be used to access data through the Amazon Console or the inter
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+(AMI)
+----------
+An Amazon Machine Image (AMI) is a template used to create virtual servers in Amazon Web Services (AWS). AMIs are used to launch Amazon Elastic Compute Cloud (EC2) instances.
+1) What is an AMI used for? 
+ Setting up instances: AMIs provide the software required to set up and boot an instance. 
+Creating custom instances: AMIs can be customized to install software and configure operating systems. 
+Delivering products: AMIs can be used to deliver products to buyers in the AWS Marketplace. 
+2) How do I use an AMI? 
+Specify an AMI when launching an instance.
+Create an AMI in one region and copy it to other regions.
+Disable an AMI to temporarily prevent it from being used.
+Deregister an AMI when it's no longer needed.
+3) What types of AMIs are there? 
+ Prebuilt AMIs: These can be found in the AWS marketplace, AWS, or the user community.
+Custom AMIs: These can be created by users or third-party providers.
+------------------------------------------------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------
+IAM
+------
+ AWS Identity and Access Management (IAM) is a web service that controls access to AWS resources. It helps ensure that users only have access to the resources they need. 
+1) How IAM works ?
+ IAM creates and manages roles that define which actions users can take. 
+IAM verifies users' identities and ensures they have the correct permissions. 
+IAM can use authentication methods like passwords or biometrics. 
+IAM can track user activity and report on it. 
+IAM can enforce policies to protect data security and privacy. 
+2)  What IAM roles are used for ?
+ Basic roles: Roles like Owner, Editor, and Viewer
+Predefined roles: Roles that provide access to a specific service
+Custom roles: Roles that provide access based on a user-defined list of permissions
+3) Why IAM is important  ?
+  IAM helps companies grant different permissions to different users.
+IAM helps ensure that users only have access to the resources they need.
+IAM helps protect data security and privacy.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+RDS
+======
+Amazon Relational Database Service (RDS) is a managed service from Amazon Web Services (AWS) that helps users set up, operate, and scale relational databases in the cloud. RDS automates many database management tasks, freeing up administrators to focus on other tasks. 
+1)  What does RDS do? 
+ Manages database tasks: RDS automates tasks like data migration, backup, recovery, and patching 
+Scales capacity: RDS allows users to scale the compute resources or storage capacity of their database 
+Improves availability: RDS can use replication to improve data durability and availability 
+Supports multiple database engines: RDS supports a variety of database engines, including MySQL, PostgreSQL, MariaDB, SQL Server, Oracle, and Db2 
+2)  What are the benefits of RDS? 
+  ost-efficient: RDS is cost-efficient and only charges for the resources used 
+Easy to use: RDS is easy to set up, operate, and scale 
+Compatible with existing tools: RDS works with the same tools and applications used with standalone database instances 
+3)  What are some types of RDS instances? 
+ General Purpose: The most common and versatile RDS instance type
+Memory Optimized: Designed for workloads that require high memory capacity and fast performance
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ROUTE 53 OR DNS ( DOMAIN NAME SYSTEAM )
+-------------------------------------------------------
+ Amazon Route 53 is a Domain Name System (DNS) service that connects internet traffic to the correct servers that host requested web applications. It's a cloud service that translates domain names into IP addresses, which computers use to communicate with each other. 
+-------------------------------------------
+How it works?
+------------
+Route 53 translates domain names like "example.com" into IP addresses like "192.0.2.1" 
+It connects user requests to infrastructure in AWS, like Amazon EC2 instances, Amazon S3 buckets, and Elastic Load Balancing load balancers 
+It can also route users to infrastructure outside of AWS 
+It automatically scales to adjust to varying workloads, optimizing performance 
+--------
+BENFITES
+----
+t's reliable and cost-effective
+It provides a mechanism for developers to manage their public DNS names
+It allows users to purchase and manage domain names
+It allows users to automatically configure DNS settings for their domains
+You can learn more about Amazon Route 53 in the Amazon Route 53 Documentation. 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ELB (ELASTIC LOAD BALANCER)
+   -------------------------------------
+
+ELB 53 in AWS is the integration of Elastic Load Balancing (ELB) with Amazon Route 53. This integration allows users to map their root domain to their ELB, and use Route 53's DNS Failover to redirect users to backup locations if their website goes down
+------------------. 
+ Benefits
+
+
+
+Easy to implement: Users can implement this solution in minutes 
+Reliable: Amazon Web Services (AWS) provides a high level of reliability 
+Automatic traffic distribution: ELB automatically distributes incoming traffic across multiple targets and virtual appliances 
+Fault tolerance: Route 53 DNS Failover can redirect users to backup locations if their website goes down 
+Scalability: Users can scale their applications horizontally as their log volumes grow 
+---------
+FEATURES
+-----------
+Weighted Round Robin (WRR): Developers can specify the frequency with which different DNS responses are returned to end users 
+DNS Failover: Route 53 can detect outages and redirect users to backup locations 
+Health checks: Route 53 regularly makes requests to application endpoints to determine if they are up or down 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LOAD BALANCER 
+---------------------
+Amazon Route 53 is a global load balancing service in Amazon Web Services (AWS) that uses the Domain Name System (DNS) to route traffic to the closest server. 
+
+
+
+How it works
+----------------
+Route 53 responds to DNS queries from clients by returning the DNS record for the closest region 
+It uses a global anycast network of DNS servers to automatically answer queries from the best location 
+It measures "closeness" by network latency, not the client's geographic location 
+-------------
+Benefits
+------------Low query latency: Route 53 automatically answers queries from the best location, which reduces latency for end users 
+Predictable failover: Route 53 can be configured to failover to a new DNS address 
+Fault tolerance: Route 53's Traffic Flow feature can be combined with DNS Failover to create fault-tolerant architectures 
+-------------------
+USE CASES
+---------------------
+Application maintenance
+Route 53 can help with application maintenance by routing traffic to healthy endpoints
+Disaster recovery
+Route 53 can help with disaster recovery by routing traffic to healthy endpoints
+Real-time media exchanges
+Route 53's latency-based routing policy can help improve the quality of service for real-time media exchanges
+------
+INTERVIEW QUESTION --( WHAT ARE THREE TYPES OF LOAD BALANCER )
+ANSWER----
+-----------------
+Further aiding your availability, AWS Elastic Load Balancing supports three types of load balancers: Application Load Balancers, Network Load Balancers, and Classic Load Balancers. You can load each based upon your needs.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AUTO SCALLING
+--------------------
+
+AWS Auto Scaling is a service that automatically adjusts the capacity of your resources based on demand. It can help you optimize costs and performance, and ensure that your applications have the right resources at the right time.
+-------------------------------- 
+ How it works ?
+Monitors resources
+AWS Auto Scaling monitors your application and resources in real-time.
+Creates scaling policies
+AWS Auto Scaling automatically creates scaling policies and targets based on your preferences.
+Adjusts capacity
+AWS Auto Scaling automatically adds or removes capacity from your resources based on demand.
+Maintains performance
+AWS Auto Scaling ensures that your resources are operating at the desired performance levels.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+https://docs.aws.amazon.com/prescriptive-guidance/latest/patch-management-hybrid-cloud/overview.html#terms (THIS URL PAST  TO CHROME)
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                  DEVOPES
+                                                                                                                                                   -------------
+      1) WHAT IS DEVOPES ?
+   DevOps is a software development methodology that combines development and operations to improve the quality and speed of software delivery. It's a combination of people, tools, and practices that help teams work together to create better products. 
+   2) HOW IS WORKES ?
+      Collaboration: DevOps encourages collaboration between development and operations teams. 
+Automation: DevOps uses automation to speed up processes that were previously manual. 
+Shared tools: DevOps teams share tools and practices to make software development more efficient. 
+Rapid feedback: DevOps emphasizes rapid feedback cycles to help teams identify and fix issues quickly. 
+3) WAHT IS THE BENFITES OF DEVOPES ? 
+ Faster delivery: DevOps helps teams deliver applications and services faster. 
+Higher quality: DevOps helps teams create more reliable products. 
+Better customer service: DevOps helps teams better respond to customer needs. 
+Increased business goals: DevOps helps teams achieve business goals faster. 
+  3) WHAT IS THE ROLE OF DEVOPES ? 
+  DevOps engineers play a vital role in modern software organizations, helping to bridge the gap between software development and IT operations. DevOps is a cultural and technical approach that emphasizes collaboration, automation, and continuous integration and delivery (CI/CD)
+4) WHY IS DEVOPES USED ? 
+  it allows developers to frequently merge code changes into a central repository where builds and tests are executed. This helps DevOps teams address bugs quicker, improve software quality, and reduce the time it takes to validate and release new software updates.
+ 5) what is ci cd devopes ? 
+   CI/CD, which stands for continuous integration and continuous delivery/deployment, aims to streamline and accelerate the software development lifecycle. Continuous integration (CI) refers to the practice of automatically and frequently integrating code changes into a shared source code repository
+6) what is ci bullid ?
+     A continuous integration service automatically builds and runs unit tests on the new code changes to immediately surface any errors. Continuous integration refers to the build and unit testing stages of the software release process. Every revision that is committed triggers an automated build and test.
+7)  what is cd bullid ? 
+  A "CD build" refers to the process of automatically building and preparing software code for deployment as part of a "Continuous Delivery" (CD) pipeline, essentially creating a deployable package that can be readily released to a testing or production environment with minimal manual intervention; it's a key step in the CI/CD (Continuous Integration and Continuous Delivery) workflow where code is compiled, tested, and packaged for release. 
+
+
+
+
+
+                                                                                                                                                     devopes tools
+   1)git                                                                                                                                          ------------------
+  2) jenkines
+  3) anisble 
+  4) docker 
+  5) kuberntes 
+  6) terraform 
+                                                                                                                                                           git 
+                                                                                                                                                          ------
+         Git is a version control system (VCS) that's used in DevOps to store, track, and manage code. It's a key tool for software development that helps teams collaborate on projects. 
+   1) How Git works  ? 
+    Git stores code and its development history in a local repository
+Developers can create branches to work on different versions of the code in parallel
+When developers are ready, they can commit changes to save their progress
+Git takes a snapshot of the work and compares it to previous versions
+Developers can merge changes from branches back into the main version
+2) Why Git is important in DevOps ?
+  Git enables pull requests and code reviews, which promote communication and discussion 
+Git's distributed nature allows developers to work offline or remotely 
+Git's branches allow developers to quickly switch between different versions of the codebase 
+ 3)  Some Git commands 
+-----------------------------------
+    git branch branch_name Creates a new branch 
+git checkout branch_name Switches to a branch 
+git checkout -b branch_name Creates and switches to a new branch 
+git branch Lists all branches and shows which branch you're currently on 
+git log Shows the version history for the current branch 
+git add Adds files to the staging area for the next commit 
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                   jenkines 
+                                                                                                                                                    ----------
+Jenkins is an open-source automation tool that helps streamline the software development lifecycle in DevOps environments. It automates the process of building, testing, and deploying software applications
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  ( two answere correct )
+Jenkins is an open source continuous integration/continuous delivery and deployment (CI/CD) automation software DevOps tool written in the Java programming language. It is used to implement CI/CD workflows called pipelines
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+ 1)  How does Jenkins work? 
+  Developers commit changes to the source code
+The Jenkins CI server checks the repository for changes
+The build server builds the code into an executable file
+If the build fails, the developers receive feedback 
+The build application is deployed to the test server
+If the test fails, the developers receive alerts
+If the code is error-free, the application is deployed to the production serve
+2) Why is Jenkins used in DevOps? 
+ Jenkins helps improve the efficiency of continuous integration and continuous delivery (CI/CD) 
+It allows developers to detect problems early zsddd szzzzzzzzzzs
+It makes it easier for developers to integrate changes to the project
+ 
+
+                                                                                                                                                                                                                       DAY --1 ( VPC)
+                                                                                                                                                                                                                       --------------------
+  VPC ( VIRTUAL PRIVATE COULD )
+==============================
+ A Virtual Private Cloud (VPC) is a private network within a public cloud that allows organizations to host resources in a secure environment. VPCs are a public cloud offering that provides networking for cloud-based resources.  ( UDP _ UNIFORM CUSTOMER PRA TICE ) 
+SUB NET 
+------------
+ A subnet, or subnetwork, is a logical division of a larger network into smaller, more manageable networks. Subnets are used to improve network performance, security, and stability. 
+ INTERNET GATEWAY
+------------------------
+ An internet gateway (IG) is a device or software that connects a network to the internet. It allows data to flow between the two networks, enabling users to access the internet. ( TCP ---TRANSMATION CONTROL PROTOCAL)
+ 
+NAT GETWAY
+-----------------
+NETWORK ADRASS TRANAALATION
+
+                 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Principal": "*",                                                                                                                                                                                                         
+            "Action": [  
+                "s3:ListBucket",
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::new---324",
+                "arn:aws:s3:::new---324/*"
+            ]
+        }
+    ]  
+}       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+what is bucket version ----
+------------------------------
+a feature that keeps multiple versions of an object in a bucket                         bm    
+
+
+
+
+
+
+
+APACHE TEST 
+
+-----------------------------
+
+#!/bin/bash
+ 
+
+
+
+
+
+
+
+############################################
+############ step-1: install apache2#################
+
+yes| sudo apt update
+yes| sudo apt install apache2
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+JSON FULL FORM: JavaScript Object Notation
+=====================================
+Understand the total number of bits in an IPv4 address: An IPv4 address has 32 bits in total.
+
+Identify the subnet mask: The /16 means that the first 16 bits of the IP address are reserved for the network part, and the remaining 16 bits are available for hosts (devices) in that network.
+
+Calculate the number of available IP addresses: The number of IP addresses in the subnet is determined by how many bits are left for host addresses. Since there are 16 bits left for hosts in a /16 subnet, the formula is:
+
+Total IP addresses
+=
+2
+number of host bits
+=
+2
+16
+=
+65
+,
+536
+Total IP addresses=2 
+number of host bits
+ =2 
+16
+ =65,536
+Account for network and broadcast addresses: In most cases, one address is reserved for the network address, and one is reserved for the broadcast address. Therefore, the usable IP addresses for devices are:
+
+Usable IP addresses
+=
+65
+,
+536
+−
+2
+=
+65
+,
+534
+Usable IP addresses=65,536−2=65,534
+Summary:
+A /16 subnet provides 65,536 total IP addresses, with 65,534 usable IP addresses for devices after excluding the network and broadcast addresses.
+If you want to calculate for different CIDR blocks like /24 or /8, let me know!
+=============================================================================================================================================================================
+aws important taske total 17 
+=============================================
+1. Setting up and Managing EC2 Instances
+Launching EC2 Instances: Create virtual machines (instances) in the cloud.
+Managing EC2 Security Groups: Configure firewall rules to control inbound and outbound traffic.
+Elastic IPs and Load Balancers: Allocate Elastic IPs for static IP addressing and set up load balancing using Elastic Load Balancing (ELB).
+Scaling EC2 Instances: Set up Auto Scaling to automatically adjust the number of EC2 instances based on demand.
+2. VPC (Virtual Private Cloud) Setup and Configuration
+Creating VPCs: Design and create isolated virtual networks to host your AWS resources.
+Subnets: Split your VPC into multiple subnets (public/private) based on your architecture.
+Route Tables: Configure route tables for routing traffic between subnets, and to the internet.
+VPN and Direct Connect: Set up secure connections to your on-premise data center.
+NAT Gateways/Instances: Configure Network Address Translation (NAT) for instances in private subnets to access the internet.
+3. IAM (Identity and Access Management) Setup
+Creating IAM Users/Groups/Policies: Set up users, roles, and groups for managing access to AWS resources.
+Multi-Factor Authentication (MFA): Enable MFA for enhanced security for AWS accounts.
+Role-Based Access Control (RBAC): Apply least privilege by using specific IAM policies.
+Federated Access: Set up identity federation for single sign-on (SSO) with AWS resources.
+4. S3 (Simple Storage Service) for Object Storage
+Creating and Managing S3 Buckets: Store and manage files and objects in a scalable way.
+Bucket Policies and Permissions: Set permissions to control access to the data in S3.
+Versioning: Enable versioning to preserve, retrieve, and restore every version of an object.
+Lifecycle Policies: Set up rules for transitioning data between storage classes or deleting objects after a period.
+5. RDS (Relational Database Service) Management
+Setting Up RDS Instances: Create and manage relational databases such as MySQL, PostgreSQL, and SQL Server.
+Backups and Snapshots: Configure automated backups, and take snapshots for point-in-time recovery.
+Scaling and Performance: Modify instance sizes, apply read replicas, and use Multi-AZ deployments for high availability.
+6. Lambda Functions for Serverless Computing
+Creating and Managing Lambda Functions: Write and deploy code that automatically runs in response to events (e.g., file uploads to S3).
+Event Sources: Integrate Lambda with AWS services (like S3, DynamoDB, SNS, etc.) to trigger functions.
+Lambda Permissions: Assign permissions for Lambda to access other AWS services.
+7. CloudFormation for Infrastructure as Code
+Writing Templates: Define AWS resources in a declarative JSON or YAML template.
+Automated Provisioning: Use CloudFormation to automate infrastructure provisioning and updates.
+Stacks: Manage resources as stacks, allowing for easy deployment and deletion of entire infrastructure.
+8. CloudWatch for Monitoring and Logging
+Creating Alarms: Set alarms for resource utilization (e.g., CPU, memory usage, etc.) to trigger notifications or scaling actions.
+Log Management: Collect and analyze log data from EC2, Lambda, RDS, and other AWS services using CloudWatch Logs.
+Metrics and Dashboards: Create custom dashboards to monitor the health of your applications and infrastructure.
+9. CloudTrail for Auditing and Security
+Enabling CloudTrail: Monitor AWS account activity by logging API calls made on your AWS resources.
+Audit Trails: Analyze the logs to track changes and ensure compliance with your security policies.
+Security Alerts: Set up alerts for suspicious activities.
+10. Security and Compliance Tasks
+Encryption: Enable encryption at rest and in transit using services like KMS (Key Management Service).
+Security Groups and Network ACLs: Implement proper networking and security rules for your EC2 instances and resources.
+AWS Config: Set up configuration management and compliance auditing for your AWS resources.
+11. Cost Management and Optimization
+AWS Cost Explorer: Monitor and analyze your AWS spending and usage.
+Budgets and Alerts: Set up budgets and configure alerts to stay within your spending limits.
+Cost Optimization: Identify unused resources (e.g., unattached EBS volumes) and switch to lower-cost instance types when possible.
+12. Elastic Beanstalk for Application Deployment
+Deploying Applications: Use AWS Elastic Beanstalk to deploy and manage web applications without managing the underlying infrastructure.
+Environment Configuration: Set up application environments (e.g., Java, Node.js, Python) with the necessary infrastructure, like load balancers and auto scaling.
+13. SNS and SQS for Messaging
+SNS (Simple Notification Service): Set up topic-based messaging for alerts and notifications to a distributed system.
+SQS (Simple Queue Service): Manage message queues for decoupling application components and ensuring reliable message delivery.
+14. Elastic File System (EFS) and Elastic Block Store (EBS)
+EBS: Attach persistent storage to EC2 instances for block-level storage, such as databases or filesystems.
+EFS: Set up a scalable, elastic file system that can be accessed from multiple EC2 instances simultaneously.
+15. Route 53 for DNS Management
+Domain Registration: Purchase and manage domain names within Route 53.
+DNS Routing: Set up DNS routing policies like weighted, geolocation, and latency-based routing.
+Health Checks: Monitor the health of your web applications and route traffic accordingly.
+16. AWS Organizations and Consolidated Billing
+Multi-Account Management: Use AWS Organizations to manage multiple AWS accounts.
+Consolidated Billing: Consolidate billing across accounts to simplify cost management.
+17. Disaster Recovery and Backup Solutions
+Backup and Restore: Use AWS Backup and snapshots for automated backups of data and resources.
+Cross-Region Replication: Set up replication of data and resources across multiple regions for high availability and disaster recovery.
+These tasks cover many areas of cloud management and operations in AWS. Let me know if you'd like more detailed guidance on any of these topics!
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ap south east --1
+-----------------------
+asia pasfic south -1
+-------------------
+total ablliabillity zones --69
+-----------
+zone to zone distance -----2oo km
+------------------------------------------
+load balancer create commendes
+---------------------------------------
+sudo   -i
+yum install httpd   -y
+service   httpd  start 
+next statues check 
+service httpd status 
+cd /var/www/html
+vim    index.html
+service httpd restart
+------------------------------
+
+iass examples : Amazon EC2, Amazon S3, Amazon VPc
+passs example : AWS Elastic Beanstalk, AWS Lambda, Amazon RDS, Amazon Aurora.
+sass example : AWS WorkSpaces, Amazon Chime, Amazon QuickSight.
+------------------------------------------------------------------------------------------------
+depolyment modeles 
+---------------------------
+ publlic could : EC2, S3, Lambda, RDS
+private could : Amazon VPC, Direct Connect, AWS Outposts.
+hybrid could :  AWS Direct Connect, AWS Storage Gateway, AWS Outposts.

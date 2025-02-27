@@ -1,0 +1,240 @@
+ 1)sudo systemctl is-enabled jenkins-----
+     
+  1) WHAT IS DEVOPES ?
+     DevOps is a set of practices, tools, and cultural philosophies that aim to improve the collaboration between software development (Dev) and IT operations (Ops) teams. The goal is to shorten the development lifecycle, increase deployment frequency, and provide high-quality software with continuous integration and continuous delivery (CI/CD).
+
+In simple terms:
+
+Development (Dev) focuses on writing and creating software.
+Operations (Ops) handles deploying, managing, and maintaining that software.
+
+
+
+
+
+WHAT IS AUTOMITION IN DEVOPES ..?
+Continuous Integration (CI): Automating the process of merging code changes into a shared repository. Every time a developer submits code, automated tests run to ensure everything works as expected.
+
+Continuous Delivery (CD): Automating the deployment of software to various environments (e.g., development, testing, production). Once the code is integrated and tested, it's automatically deployed, ensuring fast and reliable releases.
+
+Infrastructure as Code (IaC): Automating the provisioning and management of infrastructure using code instead of manual configuration. This ensures that environments are consistent and easily replicable. 
+           
+
+
+
+7 phases of devopes life cycle 
+----------------------------------
+The 7 phases of the DevOps lifecycle
+Continuous development.
+Continuous integration.
+Continuous testing.
+Continuous monitoring.
+Continuous feedback.
+Continuous deployment.
+Continuous operations.
+    
+
+
+
+
+
+developeres -----------plan code bullid test 
+operation team --------depoly relese monitor fedback 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To reboot a system in Unix-like operating systems (like Linux), you can use the **`reboot`** command. Here's how you typically do it:
+
+### Command to Reboot the System:
+```bash
+sudo reboot
+```
+
+### Breakdown:
+- **`sudo`**: This runs the command with elevated (root) privileges, which is necessary to reboot the system.
+- **`reboot`**: This command instructs the system to reboot.
+
+### Alternative Commands:
+1. **Shutdown and Reboot**:
+   ```bash
+   sudo shutdown -r now
+   ```
+   - The **`-r`** option tells the system to restart, and **`now`** indicates that it should happen immediately.
+
+2. **Using `systemctl`** (for systems with `systemd`):
+   ```bash
+   sudo systemctl reboot
+  
+
+### Path:
+- The system's path to the **`reboot`** command typically resides in directories like `/sbin` or `/usr/sbin` (depending on your system).
+  - You can verify this by running `which reboot`, and it will show you the path to the command.
+  - Example:
+    ```bash
+    which reboot
+    ```
+    Output might be something like:
+    ```bash
+    /sbin/reboot
+    ```
+
+These are the typical methods to reboot a system. If you're on a different operating system or have specific conditions, let me know, and I can assist further!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dr-xr-x---.  4 root root  163 Feb 17 10:20  .
+dr-xr-xr-x. 18 root root  237 Feb 11 21:41  ..
+-rw-------.  1 root root 1115 Feb 17 06:11  .bash_history
+-rw-r--r--.  1 root root   18 Feb  2  2023  .bash_logout
+-rw-r--r--.  1 root root  141 Feb  2  2023  .bash_profile
+-rw-r--r--.  1 root root  429 Feb  2  2023  .bashrc
+-rw-r--r--.  1 root root  100 Feb  2  2023  .cshrc
+drwx------.  2 root root   29 Feb 16 06:23  .ssh
+-rw-r--r--.  1 root root  129 Feb  2  2023  .tcshrc
+-rw-r--r--.  1 root root  164 Feb 16 06:51  .wget-hsts
+drwxr-xr-x.  2 root root    6 Feb 17 05:50  ravi
+-rw-r--r--.  1 root root 2222 Feb 16 08:42 '{'
+[root@ip-172-31-90-68 ~]# ^C
+[root@ip-172-31-90-68 ~]#
+chmod 400 <key_pair_name>.pem
+chmod 400 <key_pair_name>.pem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Key features of SSH:
+Remote login: SSH allows users to securely log into remote computers and run commands.
+File transfer: It also supports secure file transfers using protocols like SFTP (SSH File Transfer Protocol) and SCP (Secure Copy).
+Encryption: SSH encrypts the data, ensuring confidentiality and protecting against eavesdropping.
+Authentication: SSH supports various authentication methods, including password-based and public key authentication.
+
+
+
+
+
+
+
+
+devopes resarach and assigemnt dora 
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+

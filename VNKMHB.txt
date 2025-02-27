@@ -1,0 +1,12 @@
+
+
+*************************************************  TASK ****************************************************************************
+
+launch two maachins in private network
+
+
+and launch one more instnace  in public and establish the connection between the public and private servers.
+
+
+
+and exaplain how private servers are connect to the network...

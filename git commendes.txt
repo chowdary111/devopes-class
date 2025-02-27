@@ -1,0 +1,66 @@
+An Operating System is a System software that 
+-	manages all the resources of the computing device
+-	Acts as an interface between the software and different parts of the computer or the computer hardware.
+-	Controls and monitors the execution of all other programs that reside in the computer, which also includes application programs and other system software of the computer.
+-	Examples of Operating Systems are Windows, Linux, macOS, Android, iOS, etc.
+
+Functions of operating system 
+-	Resource Management 
+-	Process Management 
+-	Memory Management 
+-	Security 
+-	File Management 
+-	Device Management 
+-	Networking 
+Linux Architecture 
+The main components of Linux operating system are: Application, Shell, Kernel, Hardware, Utilities
+ 
+Linux operating system architecture
+1. Kernel:
+Kernel is the main core component if Linux, it controls the activity of other hardware components. It visualizes the common hardware resources and provide each process with necessary virtual resources. It makes the process to wait in the ready queue and execute in consequently to avoid any kind of conflict.
+2. Shell:
+Shell can be determined as the interface to the kernel, which hides the internal execution of functions of kernel from the user. Users can just enter the commend and using the kernel’s function that specific task is performed accordingly.
+3. Hardware Layer:
+Hardware layer of Linux is the lowest level of operating system track. It is plays a vital role in managing all the hardware components. It includes device drivers, kernel functions, memory management, CPU control, and I/O operations.
+
+
+
+Linux commands to understand about machine 
+Uname – displays kernel name 
+Uname -a prints all info about os , machine
+hostname – provides machine name
+hostname -i provides ip address of host 
+ifconfig – provides ip 
+whoami – shows current user
+who – prints users who are all logged
+man commandname – provides info about command
+ex: man ls 
+
+Day2 
+ls - (list) command in Linux lists directory contents, displaying files and subdirectories
+ls -a – lists along with hidden files 
+clear – clears screen ctrl + l – shortcut 
+cd – change directory 
+cd .. – go one step back cd ../../ - goes two step back 
+cd directoryname 
+touch filename – create empty file 
+ex: touch file1
+echo – displays whatever provided 
+cat- read the contents of file 
+ex: cat file1
+> -  overwrites contents of file 
+Ex: echo ‘’first line” > file1 
+Cat file1 
+First line 
+>>- merges with present content 
+echo “second line” >> file1 
+cat file1 
+First line 
+Second line 
+mkdir – creates directory 
+mkdir -p dir1/dir2 – creates directory inside directory 
+rm filename – removes file 
+rm -rf – remove directory 
+
+
+

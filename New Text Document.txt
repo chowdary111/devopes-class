@@ -77,3 +77,11 @@ Example usage:
 - Writing down ideas or notes
 - Storing simple configurations or logs
 
+
+
+
+
+
+
+
+

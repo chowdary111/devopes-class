@@ -1,0 +1,57 @@
+  today topices 
+=========
+DEVOPS 
+1) WATER FULL METHOD 
+2) AGILE METHOD 
+3) DEVOPS METHOD 
+
+
+
+what are the types of sdlc 
+----------------------------------
+Types of SDLC Models:
+There are several SDLC models, each with different approaches to managing the development process. Some of the most common models include:
+
+Waterfall Model:
+
+A linear and sequential approach where each phase must be completed before moving to the next. It's best for projects with well-defined requirements.
+Agile Model:
+
+An iterative and incremental model where development is broken into small cycles (called sprints). Agile allows for flexibility and frequent releases with continuous feedback.
+V-Model (Verification and Validation):
+
+Similar to the Waterfall model but with a focus on testing at each stage. For each development phase, a corresponding testing phase is planned.
+Iterative Model:
+
+Development is done in iterations or small parts, and the software is developed in successive refinements. Each iteration builds on the previous one, with more features and improvements.
+Spiral Model:
+
+A risk-driven model that combines elements of the Waterfall and iterative models. It focuses on identifying and mitigating risks early, with frequent iterations and refinements.
+DevOps Model:
+
+Focuses on continuous integration, delivery, and deployment of software. Developers and IT operations teams work closely together, promoting collaboration and automation.
+Benefits of SDLC:
+Improved Project Control: Clearly defined stages and deliverables help track the project's progress and ensure it stays on schedule.
+Higher Quality: Rigorous testing and feedback loops help identify and fix issues early, ensuring a better quality product.
+Efficient Use of Resources: Following a structured process ensures that resources, including time and budget, are used efficiently.
+Better Customer Satisfaction: By understanding customer requirements upfront and involving them in testing and feedback, the end product is more likely to meet their expectations.
+Conclusion:
+The Software Development Life Cycle (SDLC) provides a systematic approach to software development, ensuring that projects are well-planned, executed efficiently, and meet the needs of stakeholders. Different SDLC models offer flexibility in how projects are managed, allowing organizations to choose the most appropriate approach based on their project size, complexity, and requirements.
+
+kernel 
+========
+
+the kernel used by Linux-based operating systems and the interface between the hardware and the computer processes.
+shell 
+--------
+The shell in Linux is a command-line interpreter that allows users to interact with the operating system 
+
+singamanenilakshmanbabu@quantumworks.in
+Singamanenilakshmanbabu#234
+
+
+
+
+
+
+

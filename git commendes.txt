@@ -63,4 +63,21 @@ rm filename – removes file
 rm -rf – remove directory 
 
 
-
+sudo apt install tree 
+ 
+free
+ 
+vmstat 
+ 
+kill 
+ 
+sudo apt install nginx 
+ 
+systemctl status nginx 
+ 
+ ps aux -P | grep nginx
+ 
+kill -9 13955 
+ 
+sudo passwd ubuntu
+ 
